@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waleedasaf.github.io/static/css/main.b5fe8dec.css",
-    "main.js": "/waleedasaf.github.io/static/js/main.7668958a.js",
+    "main.js": "/waleedasaf.github.io/static/js/main.89d89c6e.js",
     "static/js/453.b05d8aa5.chunk.js": "/waleedasaf.github.io/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/waleedasaf.github.io/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/waleedasaf.github.io/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -11,11 +11,11 @@
     "static/media/profile1.jpg": "/waleedasaf.github.io/static/media/profile1.96bccb8fbf4407e15cab.jpg",
     "index.html": "/waleedasaf.github.io/index.html",
     "main.b5fe8dec.css.map": "/waleedasaf.github.io/static/css/main.b5fe8dec.css.map",
-    "main.7668958a.js.map": "/waleedasaf.github.io/static/js/main.7668958a.js.map",
+    "main.89d89c6e.js.map": "/waleedasaf.github.io/static/js/main.89d89c6e.js.map",
     "453.b05d8aa5.chunk.js.map": "/waleedasaf.github.io/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5fe8dec.css",
-    "static/js/main.7668958a.js"
+    "static/js/main.89d89c6e.js"
   ]
 }
