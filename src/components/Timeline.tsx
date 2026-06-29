@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -12,16 +12,45 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+
+          {/* Softoholic */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid white' }}
-            date="Feb 2025 - Feb 2026"
+            date="Jan 2025 - June 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              DevOps Trainee
+              Cloud Support Intern
+            </h3>
+
+            <h4 className="vertical-timeline-element-company">
+              SOFTOHOLIC
+            </h4>
+
+            <h4 className="vertical-timeline-element-subtitle">
+              Birmingham, UK (Remote)
+            </h4>
+
+            <p>
+              Assisted in provisioning and managing AWS cloud resources including EC2, S3, and IAM, gaining hands-on experience in cloud operations and cost monitoring.
+              Supported troubleshooting of cloud-based workloads in Linux environments and documented solutions for team knowledge sharing.
+            </p>
+          </VerticalTimelineElement>
+
+          {/* Wowbly */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid white' }}
+            date="July 2025 - June 2026"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Trainee DevOps Engineer
             </h3>
 
             <h4 className="vertical-timeline-element-company">
@@ -33,12 +62,13 @@ function Timeline() {
             </h4>
 
             <p>
-              Built and maintained CI/CD pipelines using GitHub Actions.
-              Containerized applications using Docker.
-              Assisted in AWS EC2 deployments and basic Kubernetes configurations.
-              Automated infrastructure tasks and improved deployment workflows.
+              Collaborated with cross-functional teams to design and deploy AWS infrastructure including VPC, security groups, and networking.
+              Streamlined deployments using CI/CD pipelines, reducing deployment time by approximately 40%.
+              Implemented Infrastructure as Code using Terraform for standardized provisioning.
+              Monitored system performance using logging and observability practices, analyzing logs and metrics to troubleshoot Linux-based workloads.
             </p>
           </VerticalTimelineElement>
+
         </VerticalTimeline>
       </div>
     </div>
